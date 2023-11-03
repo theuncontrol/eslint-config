@@ -5,9 +5,8 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'standard',
+    'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -19,7 +18,6 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'react',
     'jsx-a11y',
     '@typescript-eslint'
   ],
@@ -33,8 +31,6 @@ module.exports = {
       'semi': false,
       'endOfLine': 'auto',
     }],
-    'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off',
     'jsx-a11y/alt-text': [
       'warn',
       {
