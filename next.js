@@ -18,7 +18,6 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'jsx-a11y',
     '@typescript-eslint'
   ],
   rules: {
